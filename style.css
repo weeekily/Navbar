@@ -125,3 +125,41 @@ header {
 
   }
 }
+
+.text {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.text-welcome{
+  font-size: 200px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  padding: 10px;
+  color: #11101b;
+  transition: 1.5s;
+}
+
+.text-welcome:hover{
+  color: greenyellow;
+}
+
+.text1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px ;
+}
+
+.text-guyz{
+  font-size: 200px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  padding: 10px;
+  color: #11101b;
+  transition: 1.5s;
+}
+
+.text-guyz:hover{
+  color: greenyellow;
+}
