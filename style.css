@@ -25,6 +25,13 @@ header {
   font-size: 28px;
   font-weight: bold;
   color: #fefefe;
+  transition: 0.2s;
+}
+
+.logo:hover{
+  color: greenyellow;
+  transition: 0.5s;
+  user-select: none;
 }
 
 .hamburger {
